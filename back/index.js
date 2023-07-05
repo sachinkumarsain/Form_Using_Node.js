@@ -9,7 +9,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(cors({ origin: "http://localhost:3000" }));
 
 app.get("/", (req, res) => { 
-    res
+    // res.send("hello world")
 })
 
 app.post("/register", async (req, res) => {
